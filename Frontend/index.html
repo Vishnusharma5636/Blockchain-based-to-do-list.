@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art NFT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Digital Art NFT Platform</h1>
+        </header>
+
+        <section class="create-art">
+            <h2>Create New Art</h2>
+            <input type="text" id="artTitle" placeholder="Art Title" required>
+            <input type="text" id="artArtist" placeholder="Artist Name" required>
+            <input type="text" id="artURI" placeholder="Art URI (link to image)" required>
+            <button id="createArtBtn">Create Art</button>
+        </section>
+
+        <section class="art-details">
+            <h2>Art Details</h2>
+            <input type="number" id="tokenId" placeholder="Enter Token ID" required>
+            <button id="getArtBtn">Get Art</button>
+            <div id="artDetails">
+                <p id="artTitleDetail"></p>
+                <p id="artArtistDetail"></p>
+                <img id="artImage" src="" alt="Art Image" />
+            </div>
+        </section>
+
+        <section class="transfer-art">
+            <h2>Transfer Art</h2>
+            <input type="number" id="transferTokenId" placeholder="Token ID" required>
+            <input type="text" id="transferToAddress" placeholder="Recipient Address" required>
+            <button id="transferArtBtn">Transfer Art</button>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
