@@ -49,5 +49,7 @@ To set up the project locally, follow these steps:
 
    ## Frontend
    ![Screenshot 2025-03-21 152331](https://github.com/user-attachments/assets/3d7a149a-84ea-4100-8334-7340a604fb3c)
+   ![Screenshot 2025-03-21 152414](https://github.com/user-attachments/assets/965be012-bb7f-4184-ba3f-809d76dab173)
+
 
    
